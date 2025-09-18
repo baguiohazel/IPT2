@@ -1,0 +1,1 @@
+ I start the tree at height 1. Then I loop through each cycle from 1 to n. If the cycle number is odd, it’s spring and I double the height; if it’s even, it’s summer and I add 1. After all n cycles, I return whatever height I end up with.

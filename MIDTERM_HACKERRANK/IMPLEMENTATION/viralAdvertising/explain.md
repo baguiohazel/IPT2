@@ -1,0 +1,1 @@
+I set shared = 5 because on day 1, five people get the ad. Every day I calculate how many of them like it by doing Math.floor(shared / 2). I add that to cumulativeLikes, then assume each of those likers shares with three friends, so the next day’s shared becomes likes * 3. After looping through n days, cumulativeLikes holds the total number of likes.

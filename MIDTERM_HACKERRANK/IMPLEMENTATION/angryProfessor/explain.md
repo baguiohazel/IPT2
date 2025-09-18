@@ -1,0 +1,1 @@
+I take the array of arrival times a and filter out everyone who showed up on time or early (time <= 0).  I get the length of that filtered list, which is how many students arrived before or exactly at the start.  If that number is less than the threshold k, I return "YES" to indicate the professor cancels class; otherwise I return "NO".
