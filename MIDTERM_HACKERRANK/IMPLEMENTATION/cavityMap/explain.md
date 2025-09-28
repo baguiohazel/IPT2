@@ -1,0 +1,1 @@
+I loop through the grid starting from the second row and column, stopping before the last. That’s because border cells can’t be cavities. For each cell, I compare its depth to the four adjacent cells. If it’s greater than all of them, I mark it as a cavity by replacing it with 'X'. I make sure to work on a copy of the grid so I don’t mess up the comparisons.

@@ -1,0 +1,1 @@
+I loop through each case, grab the start and end indices, and initialize minWidth with the first value in that segment. Then I check every width in that range—if I find something smaller, I update minWidth. After finishing the loop, I push that value to the result array. That gives me the largest vehicle that can pass through each segment.

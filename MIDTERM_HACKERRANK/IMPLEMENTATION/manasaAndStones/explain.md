@@ -1,0 +1,1 @@
+I loop through all combinations of how many times I use a and b. For each, I calculate the last stone’s value and store it in a set to avoid duplicates. After the loop, I convert the set to an array and sort it. That gives me all possible final stone values in ascending order.

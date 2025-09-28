@@ -1,0 +1,1 @@
+Let’s say we’re given n chapters and an array arr where each element is the number of problems in that chapter. We also have k, the max number of problems per page. I simulate the workbook page by page, and for each page, I check which problems are on it. If the page number matches any problem number on that page, I count it as special.

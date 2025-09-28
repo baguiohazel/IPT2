@@ -1,0 +1,1 @@
+I loop through the list of people and check if someone has an odd number of loaves. If they do, I give them one loaf and also give one to the next person. That way, both become even. I keep track of how many loaves I’ve given out. If I reach the end and someone still has an odd number, it means it’s impossible to fix—so I return 'NO'.
