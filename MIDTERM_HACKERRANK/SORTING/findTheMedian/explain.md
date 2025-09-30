@@ -1,0 +1,1 @@
+I sort the array first, then return the middle value. Since the input size is always odd, I don’t need to average two values.

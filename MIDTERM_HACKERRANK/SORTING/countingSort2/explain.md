@@ -1,0 +1,1 @@
+I first count how many times each number appears using a frequency array. Then I loop through that array and push each number into the result as many times as it appeared. This gives me a fully sorted array without any comparisons—just pure counting

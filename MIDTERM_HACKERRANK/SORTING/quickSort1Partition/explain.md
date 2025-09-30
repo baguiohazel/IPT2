@@ -1,0 +1,1 @@
+I use the first element as the pivot. I loop through the array twice—first to collect elements less than the pivot, then to collect elements greater than it. I insert the pivot in between. This mimics the partitioning step of quicksort, without recursion or full sorting.

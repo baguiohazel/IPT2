@@ -1,0 +1,1 @@
+I don’t sort the array—I just count how often each number appears. I use new Array(100).fill(0) to create a frequency array with 100 zeros. Then I loop through the input and increment the count at each index. 

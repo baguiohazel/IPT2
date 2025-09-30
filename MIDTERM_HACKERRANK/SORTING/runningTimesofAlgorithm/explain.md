@@ -1,0 +1,1 @@
+I loop through the array like in insertion sort. Every time I shift an element to the right, I increment the shifts counter. At the end, I return the total number of shifts—it’s a measure of how ‘unsorted’ the array was

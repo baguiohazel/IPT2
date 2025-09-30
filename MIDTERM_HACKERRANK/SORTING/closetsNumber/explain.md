@@ -1,0 +1,1 @@
+Given an array of integers, I need to find all pairs of elements that have the smallest absolute difference. I sort the array first, then compare adjacent elements to find and collect those pairs

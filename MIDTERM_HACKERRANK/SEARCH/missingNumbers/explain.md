@@ -1,0 +1,1 @@
+I count how often each number appears in both arrays. Then I compare those counts—if arr is missing any copies of a number, I add it to the result. Sorting the result ensures it matches the expected output format
