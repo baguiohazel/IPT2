@@ -1,0 +1,1 @@
+I just return the sum of all elements in the array
