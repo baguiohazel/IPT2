@@ -1,0 +1,1 @@
+The encryption function takes a string, removes all spaces, and arranges the characters into a grid with a number of rows and columns based on the square root of the string's length. It then reads the grid column by column to produce the encrypted output.
