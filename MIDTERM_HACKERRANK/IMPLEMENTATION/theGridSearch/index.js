@@ -1,23 +1,45 @@
 function gridSearch(G, P) {
+
     const R = G.length;
+
     const r = P.length;
 
-    for (let i = 0; i <= R - r; i++) {
-        const row = G[i];
+    const c = P[0].length;
 
-        for (let j = 0; j <= row.length - P[0].length; j++) {
-            let found = true;
+
+
+    for (let i = 0; i <= R - r; i++) {
+
+        for (let j = 0; j <= G[i].length - c; j++) {
+
+            let match = true;
+
+
 
             for (let k = 0; k < r; k++) {
-                if (G[i + k].substr(j, P[k].length) !== P[k]) {
-                    found = false;
+
+                const gridSlice = G[i + k].substring(j, j + c);
+
+                if (gridSlice !== P[k]) {
+
+                    match = false;
+
                     break;
+
                 }
+
             }
 
-            if (found) return "YES";
+
+
+            if (match) return "YES";
+
         }
+
     }
 
+
+
     return "NO";
+
 }

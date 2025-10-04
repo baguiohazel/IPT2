@@ -1,1 +1,7 @@
-I loop through each row of the big grid G and look for the first row of the pattern P. If I find a match, I check the next rows below to see if the rest of the pattern matches. I use string slicing to compare substrings. If all rows match at the same column index, I return 'YES'. Otherwise, I keep searching.
+Loop through each possible starting point in G.
+
+For each position, check if all rows of P match the corresponding slice in G.
+
+If a full match is found → return "YES".
+
+Otherwise → return "NO".
