@@ -1,0 +1,1 @@
+This function brute-forces all possible 2-character combinations from the string, filters them out, and checks which one gives the longest alternating string.
